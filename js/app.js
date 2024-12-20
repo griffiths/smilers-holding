@@ -40,6 +40,6 @@ var countdown=function(){function z(a,b){var c=a.getTime();a.setMonth(a.getMonth
     setClock();
     setInterval(setClock, 1000);
 
-    $( ".smile" ).on( "click", function() {
-        $(this).hide();
+    $( "html" ).on( "click", function() {
+        $(".smile, .countdown").toggle();
       } );

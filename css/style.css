@@ -93,6 +93,10 @@ textarea {
     font-display: swap;
 }
 
+html {
+  cursor: pointer;
+}
+
 .smile {
   position: fixed;
   top:0;
@@ -122,6 +126,7 @@ textarea {
   font-size: 13vw;
   letter-spacing: 1px;;
   z-index: 500;
+  display: none;
 }
 
 .tnr {
