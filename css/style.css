@@ -93,8 +93,24 @@ textarea {
     font-display: swap;
 }
 
+.simply-word {
+  display: none;
+}
+
+.countdown div {
+  display: inline;
+}
+
+
+.simply-days-section::after, .simply-hours-section::after, .simply-minutes-section::after {
+  content: ":";
+  font-family: 'Times New Roman', Times, serif;
+}
 html {
   cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .smile {
